@@ -1,0 +1,14 @@
+	     <td>		
+				<?php
+					$b = array(
+					"a" =>$value['point'], 
+					"b" =>$value['point'], 
+					"c" =>$value['point'],
+					"d" =>$value['point'],
+					"e" =>$value['point'],
+					"f" =>$value['point'],
+					"g" =>$value['point']
+					);
+					echo "Result = " . array_sum($b) . "\n";
+					?>
+				</td>

@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*font-family: 'Cuprum', sans-serif;*/
+
+*{margin: 5px; padding: 0; outline: 0; }
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;background:url("../img/symphony.png")repeat fixed 0 0 #fff;
+}
+#success_message{ display: none;}
