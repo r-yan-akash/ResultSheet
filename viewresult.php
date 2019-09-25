@@ -9,14 +9,14 @@ $allStudent=$allData->viewStudent();
 <body>
 <div class="container" style="align-items: center>
   <div class="row">
-						<?php 
-						if ( isset( $_SESSION['masssage'] ) ) { ?>
-                        <div class="alert alert-success">
-                            <strong> Success! </strong> <?php echo $_SESSION['masssage']; ?>.
-                        </div>
-						<?php
-						unset( $_SESSION['masssage'] );
-					} ?>
+	<?php 
+		if ( isset( $_SESSION['masssage'] ) ) { ?>
+	<div class="alert alert-success">
+	<strong> Success! </strong> <?php echo $_SESSION['masssage']; ?>.
+	</div>
+	<?php
+	unset( $_SESSION['masssage'] );
+} ?>
 <div class="main-panel" >
   <div class="content-wrapper">
     <div class="card"">
